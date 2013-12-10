@@ -59,9 +59,13 @@ class SessionController extends ControllerBase
      * Register authenticated user into session data
      *
      * @param Users $user
+     *
+     * This is a comment
      */
     private function _registerSession($user)
     {
+        // This is another comment
+
         $this->session->set('auth', array(
             'id' => $user->id,
             'name' => $user->name
