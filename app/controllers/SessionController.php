@@ -62,7 +62,7 @@ class SessionController extends ControllerBase
      *
      * This is a comment
      */
-    private function _registerSession($user)
+    private function _registerSessSSSSion($user)
     {
         // This is another comment
 
